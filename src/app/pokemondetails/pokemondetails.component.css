@@ -1,0 +1,22 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  border: 1px solid sandybrown;
+  float: left;
+  padding: 1em;
+  height: fit-content;
+}
+.move {
+  margin: 0;
+  display: block;
+  float: left;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.img {
+  float: right;
+  width: 150px;
+}

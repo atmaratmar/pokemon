@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="column" *ngFor="let pokemon of getdata() ">
+    <img class="img" src="{{pokemon?.sprites.back_default}}" alt="">
+    <h6 class="height">Height</h6>
+    <p class="height">{{pokemon.height}}</p>
+    <h6>Name</h6>
+    <p>{{pokemon.name}}</p>
+    <div>
+      <h6>Abilities</h6>
+          <p>{{pokemon.abilities[0].ability.name}}</p>
+    </div>
+    <div>
+      <h6 class="moves">Moves</h6>
+      <p class="move">{{pokemon.moves[0].move.name}}</p>
+      <p class="move">{{pokemon.moves[1].move.name}}</p>
+      <p class="move">{{pokemon.moves[2].move.name}}</p>
+      <p class="move">{{pokemon.moves[3].move.name}}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+.main-content {
+  border: solid 2px chartreuse;
+  display: grid;
+  grid-template-columns: 16fr 4fr;
+  background-color: rgb(255, 196, 0);
+}

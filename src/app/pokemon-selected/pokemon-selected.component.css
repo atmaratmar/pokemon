@@ -1,0 +1,15 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  margin-left: 1em;
+  border: 1px solid sandybrown;
+  float: left;
+  width: 33.33%;
+  padding: 1em;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

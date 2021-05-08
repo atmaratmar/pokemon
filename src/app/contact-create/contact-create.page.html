@@ -1,0 +1,14 @@
+<div class="container mt-5 d-flex justify-content-center">
+  <div class="card p-4 mt-3">
+    <div class="first">
+      <h1>Your Name</h1>
+<form #createForm="ngForm" (ngSubmit)="onSubmit(createForm)">
+  <fieldset>
+    <input class="form-control " type="text" id="name" name="name" ngModel #name="ngModel" required
+      placeholder="insert name here" />
+  </fieldset>
+  <div class="third mt-4" >
+  </div> <button type="submit" [disabled]="createForm.invalid" class="btn btn-success btn-block">Add user</button>
+</form>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  background-color: #e9b014;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.heading {
+  font-weight: 700;
+}
+
+.hour {
+  margin-top: 1px;
+  color: rgb(211, 148, 31);
+  font-size: 12px;
+}
+
+.ratings i {
+  color: #b38117;
+}
+
+.btn {
+  border-radius: 15px !important;
+}
+
+.line-color {
+  color: rgb(121, 104, 13);
+  height: 3px;
+}
